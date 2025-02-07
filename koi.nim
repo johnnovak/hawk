@@ -2699,11 +2699,12 @@ var DefaultCheckBoxStyle = CheckBoxStyle(
 )
 
 with DefaultCheckBoxStyle.icon:
-  align         = haCenter
-  color         = gray(0.25)
-  colorHover    = gray(0.25)
-  colorDown     = gray(0.7)
-  colorDisabled = gray(0.25)
+  align            = haCenter
+  color            = gray(0.25)
+  colorHover       = gray(0.25)
+  colorDown        = gray(0.25)
+  colorActive      = gray(0.25)
+  colorActiveHover = gray(0.25)
 
 proc getDefaultCheckBoxStyle*(): CheckBoxStyle =
   DefaultCheckBoxStyle.deepCopy
